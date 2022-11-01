@@ -10,6 +10,10 @@ public class F02FunctionalProgramming {
         System.out.println(sumInFunctional(numbers));
         System.out.println(sumInFunctionalLambda(numbers));
         System.out.println(sumInStatic(numbers));
+        System.out.println(sumInStatic(numbers));
+        System.out.println(sumOfSquares(numbers));
+        System.out.println(sumOfCubes(numbers));
+        System.out.println(sumOfOddCubes(numbers));
     }
 
 
@@ -31,4 +35,18 @@ public class F02FunctionalProgramming {
     private static int sumInStatic(List<Integer> numbers){
         return (numbers.stream().reduce(0, Integer::sum));
     }
+
+    private static int sumOfSquares(List<Integer> numbers){
+        return numbers.stream().map(number -> number*number).reduce(0, Integer::sum);
+    }
+
+    private static int sumOfCubes(List<Integer> numbers){
+        return numbers.stream().map(number -> number*number*number).reduce(0, Integer::sum);
+    }
+
+    private static int sumOfOddCubes(List<Integer> numbers){
+        return numbers.stream().filter(number -> number%2!=0).map(number-> number*number*number).reduce(0, Integer::sum);
+    }
 }
+
+
