@@ -34,7 +34,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FP03FunctionalProgramming">
+  <component name="RunManager" selected="Application.FP05FunctionalProgramming">
     <configuration name="F02FunctionalProgramming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.functional.programming.F02FunctionalProgramming" />
       <module name="java-functional-programming" />
@@ -74,8 +74,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FP04FunctionalProgramming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.functional.programming.FP04FunctionalProgramming" />
+      <module name="java-functional-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.functional.programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FP05FunctionalProgramming" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.functional.programming.FP05FunctionalProgramming" />
+      <module name="java-functional-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.functional.programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FP05FunctionalProgramming" />
+        <item itemvalue="Application.FP04FunctionalProgramming" />
         <item itemvalue="Application.FP03FunctionalProgramming" />
         <item itemvalue="Application.F02FunctionalProgramming" />
         <item itemvalue="Application.FP01FunctionalProgramming" />
@@ -119,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667283471447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Learning functional programming">
+      <created>1667286791368</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667286791368</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
